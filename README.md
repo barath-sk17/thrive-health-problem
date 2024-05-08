@@ -31,12 +31,12 @@ To run this project locally, you need to have Node.js and MongoDB installed on y
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/barath-sk17/thrive-health-problem.git
    ```
 
 2. Change into the project directory:
    ```bash
-   cd repo-name
+   cd thrive-health-problem
    ```
 
 3. Install the required dependencies:
