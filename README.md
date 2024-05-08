@@ -51,11 +51,15 @@ To run this project locally, you need to have Node.js and MongoDB installed on y
 
 5. Open your web browser and navigate to:
    ```bash
-   http://localhost:3000
+   http://localhost:5000
    ```
 6. Start the Front-end Server
    In a separate terminal, navigate to the `client` folder and start the React development server:
    ```bash
    npm install
    npm start
+   ```
+7. Open your web browser and navigate to:
+   ```bash
+   http://localhost:3000
    ```
