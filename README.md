@@ -63,3 +63,36 @@ To run this project locally, you need to have Node.js and MongoDB installed on y
    ```bash
    http://localhost:3000
    ```
+
+### Server Dependencies (Node.js/Express.js):
+
+- **bcrypt**: Library for hashing passwords. It provides secure hashing with salting for user authentication.
+- **bcryptjs**: A JavaScript-only implementation of bcrypt, used for environments where the native `bcrypt` module doesn't work well.
+- **dotenv**: Allows you to load environment variables from a `.env` file into `process.env`. Useful for managing sensitive configuration data.
+- **express**: A popular web framework for Node.js, used for building server-side applications and APIs.
+- **jsonwebtoken**: Library for creating and verifying JSON Web Tokens (JWT), commonly used for authentication and authorization.
+- **mongoose**: An ODM (Object-Document Mapper) for MongoDB, simplifying the process of interacting with a MongoDB database.
+- **mongoose-gridfs**: Middleware to manage files stored in MongoDB's GridFS, enabling file storage and retrieval within the database.
+- **multer**: Middleware for handling file uploads in Express applications.
+- **multer-gridfs-storage**: Integrates `multer` with MongoDB's GridFS for file storage.
+- **nodemon**: A development tool that automatically restarts the server when file changes are detected.
+
+### Client Dependencies (React.js):
+
+- **@reduxjs/toolkit**: A utility library for Redux that simplifies Redux development with modern tools and patterns.
+- **@testing-library/jest-dom**, **@testing-library/react**, **@testing-library/user-event**: Libraries for testing React components and DOM interactions.
+- **antd**: A popular UI library for React with a set of components and design principles.
+- **ascii85**: Encoding/decoding library, perhaps used for handling data in a specific format.
+- **axios**: A promise-based HTTP client for making HTTP requests.
+- **bcrypt**: It's unusual to have `bcrypt` on the client-side. Be cautious with handling sensitive operations in client-side code.
+- **moment**: A library for parsing, validating, manipulating, and formatting dates.
+- **react**, **react-dom**: Core React libraries for building user interfaces.
+- **react-hot-toast**: A library for creating toast notifications in React.
+- **react-redux**: A binding library that integrates Redux with React components.
+- **react-router-dom**: Library for handling client-side routing in React applications.
+- **react-scripts**: Scripts and configurations for Create React App.
+- **redux**: A predictable state management library.
+- **redux-toolkit**: Part of Redux Toolkit, an improvement over traditional Redux development.
+- **web-vitals**: A library for measuring important web performance metrics.
+- **proxy**: Redirects frontend API requests to the backend (set to `http://localhost:5000`).
+
